@@ -1,0 +1,74 @@
+.container{
+    background-image: url("../assets/home-background.svg");
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.homeGirl{
+    height: 88.81574074074074vh;
+    width: 40.46875vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.1875vw;
+}
+
+.nameHeading{
+    font-family: 'ELEPHNT';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 9.25925925925926vh;
+    color: #454141;
+    margin-right: 7.135416666666666vw;
+    margin-bottom: 1.2037037037037037vh;
+}
+
+.nameHeading > p >img{
+    height: 12vh;
+    margin-left:1vw;
+    margin-bottom: 1.2037037037037037vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.links{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 63.9375vw;
+    left: 0;
+    top: 0;    
+    height: 40.833333333333336vh;
+    width: 23.385416666666668vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkTitle{
+    font-size: 4.62962962962963vh;
+    font-family: 'ELEPHNT';
+    color: #454141;
+    text-decoration: none;
+}
+
+.underline{
+    height: 2.7777777777777777vh;
+    width: 7.395833333333333vw;
+    background-color: #FFDAB9;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-100%);
+}
+
+.linkGroup, .linkGroupRight{
+    margin-bottom: 4.62962962962963vh;
+}
+
+.linkGroupRight{
+    justify-self: flex-end;
+    text-align: right;
+    align-self: flex-end;
+}
