@@ -1,0 +1,38 @@
+.container{
+    background-image: url("../assets/contactmeBackground.svg");
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.contactContent{
+    position: absolute;
+    margin-left:50vw ;
+    margin-top: 22.12962962962963vh;
+}
+
+.contactmeGirl{
+    height: 88.81574074074074vh;
+    width: 40.46875vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.1875vw;
+}
+
+.contactTitle{
+    color: #454141;
+    font-family: 'ELEPHNT';
+    font-size: 9.25925925925926vh;
+   
+}
+
+.underline{
+    height: 3.7037037037037037vh;
+    width: 12.791666666666666vw;
+    background-color: #FFDAB9;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-150%);
+}

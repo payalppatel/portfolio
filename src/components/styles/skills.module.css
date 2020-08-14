@@ -1,0 +1,105 @@
+.container{
+    background-image: url("../assets/background-skills.svg");
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.skillsGirl{
+    height: 88.81574074074074vh;
+    width: 40.46875vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 2.1875vw;
+}
+
+.skillsProperties{
+    position: absolute;
+    margin-left: 11.40625vw;
+    margin-top: 27.685185185185187vh;
+    font-size: 2.7777777777777777vh;
+    color: #454141;
+    font-family: 'ELEPHNT';
+}
+
+.skillsTitle{
+    font-size: 9.25925925925926vh;
+    padding-bottom: 3.425925925925926vh;    
+}
+
+.underline{
+    height: 3.7037037037037037vh;
+    width: 12.791666666666666vw;
+    background-color: #FFDAB9;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-150%);
+}
+
+.mySkills{
+    max-height: 38.148148148148145vh;
+    overflow-y: auto;
+}
+
+/* width */
+.mySkills::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+ .mySkills::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+  }
+  
+  /* Handle */
+  .mySkills::-webkit-scrollbar-thumb {
+    background: #FCD093;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  .mySkills::-webkit-scrollbar-thumb:hover {
+    background: #FFB855;
+  }
+  
+.skillsName{
+    padding-bottom: 2.9444444444444444vh;
+}
+
+.emptyBar{
+    height: 1.3888888888888888vh;
+    width: 26.041666666666668vw;
+    background-color: #454141;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.filledBar{
+    height: 1.3888888888888888vh;
+    background-color: #FFDAB9;
+    border-radius: 10px;
+}
+
+.homeBack{
+    position: absolute;
+    margin-left:2.34375vw ;
+    margin-top:93.33333333333333vh ;
+    font-size: 4.62962962962963vh;
+    font-family: 'ELEPHNT';
+    color: #454141;
+    
+}
+
+.homeLink{
+    text-decoration: none;
+    color: #454141;
+}
+.homeLink > img{
+    height: 4.000925925925926vh;
+    margin-right: 1vw;
+}
+
+
