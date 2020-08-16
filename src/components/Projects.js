@@ -15,8 +15,8 @@ export default function Projects(){
                 <div className={styles.projectGrid}>
                     <ProjectLink link="/smart-lighting-system.pdf" text="Smart Lighting System" />     
                     <ProjectLink link="https://github.com/payalppatel" text="Hotel Management System" />
-                    <ProjectLink link="https://github.com/payalppatel" text="Food Delivery Website" />
-                    <ProjectLink link="https://github.com/payalppatel" text="WarnCam-Hidden Camera Detector" />
+                    <ProjectLink link="https://goodfoodwtp.netlify.app" text="GOOD FOOD - Food Delivery Website" />
+                    <ProjectLink link="https://github.com/payalppatel/warn-cam" text="WarnCam-Hidden Camera Detector" />
                     
                 </div> 
             </div>
