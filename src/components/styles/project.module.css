@@ -1,9 +1,9 @@
 .container{
     background-image: url("../assets/ProjectBackground.svg");
     height: 100vh; 
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top left;
     
 
 }
@@ -26,4 +26,77 @@
     position: absolute;
     z-index: -1;
     transform: translateY(-150%);
+}
+
+.projectGrid{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 56.851851851851855vh;
+    max-width: 68vw;    
+    margin-top: 7.037037037037037vh;
+    overflow-x: auto;
+}
+
+.myProjects{
+    border: 5px solid #121212;
+    border-radius: 5px;
+    background-color: #FFDAB9;
+    min-width: 21vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.myProjects > a {
+    text-decoration: none;
+    color: #121212;
+    font-size:4vh;
+}
+
+.projectGrid::-webkit-scrollbar {
+    height:5px;
+    
+  }
+  
+  /* Track */
+ .projectGrid::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+  }
+  
+  /* Handle */
+  .projectGrid::-webkit-scrollbar-thumb {
+    background: #FCD093;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  .projectGrid::-webkit-scrollbar-thumb:hover {
+    background: #FFB855;
+  }
+
+
+  .homeBack{
+    position: absolute;
+    margin-left:2.34375vw ;
+    margin-top:93.33333333333333vh ;
+    font-size: 4.62962962962963vh;
+    font-family: 'ELEPHNT';
+    color: #454141;
+    
+}
+
+.homeLink{
+    text-decoration: none;
+    color: #454141;
+}
+.homeLink > img{
+    height: 4.000925925925926vh;
+    margin-right: 1vw;
 }

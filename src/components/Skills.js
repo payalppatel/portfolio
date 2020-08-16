@@ -27,7 +27,7 @@ export default function Skills(){
             </div>
 
             <div className={styles.homeBack}>
-                <Link to="Home.js" className={styles.homeLink}><img src={Back} alt="back" />
+                <Link to="/" className={styles.homeLink}><img src={Back} alt="back" />
                 Home</Link>
             </div>    
             

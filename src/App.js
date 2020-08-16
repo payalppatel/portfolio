@@ -3,7 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
+
 import ContactMe from './components/ContactMe.js';
 
 
@@ -14,7 +14,7 @@ export default function App(){
         <Switch>
           <Route path="/skills"><Skills /></Route>
           <Route path="/projects"><Projects /></Route>
-          <Route path="/resume"><Resume /></Route>
+          
           <Route path="/contact"><ContactMe /></Route>
           <Route path="/"><Home /></Route>
         </Switch>

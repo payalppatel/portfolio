@@ -1,9 +1,9 @@
 .container{
     background-image: url("../assets/contactmeBackground.svg");
     height: 100vh; 
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top right;
 }
 
 .contactContent{
@@ -35,4 +35,37 @@
     position: absolute;
     z-index: -1;
     transform: translateY(-150%);
+}
+
+.contactLinks{
+    margin-top: 3vh;
+}
+.contactLinks img{
+    height: 6.481481481481482vh;
+    width: 3.6458333333333335vw;
+}
+
+.profilePicture > img{
+    height: 32.407407407407405vh;
+    width: 23.808854166666666vw;
+    margin-top: 4.351851851851852vh;
+}
+
+.homeBack{
+    position: absolute;
+    margin-left:2.34375vw ;
+    margin-top:2vh ;
+    font-size: 4.62962962962963vh;
+    font-family: 'ELEPHNT';
+    color: #454141;
+    
+}
+
+.homeLink{
+    text-decoration: none;
+    color: #454141;
+}
+.homeLink > img{
+    height: 4.000925925925926vh;
+    margin-right: 1vw;
 }
