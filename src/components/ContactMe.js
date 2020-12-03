@@ -35,7 +35,7 @@ export default function ContactMe(){
                 
             </div> 
             <div className={styles.homeBack}>
-                <Link to="Home.js" className={styles.homeLink}><img src={Back} alt="back" />
+                <Link to="/" className={styles.homeLink}><img src={Back} alt="back" />
                 Home</Link>
             </div>    
         </div>

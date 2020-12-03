@@ -21,7 +21,7 @@ export default function Home(){
                 </div>
 
                 <div className={styles.linkGroupRight}>
-                    <a href="/payal-resume.pdf" className={styles.linkTitle}>Resume</a>
+                    <a href="/resume.pdf" className={styles.linkTitle}>Resume</a>
                     <div className={styles.underline}></div>
                 </div>
 

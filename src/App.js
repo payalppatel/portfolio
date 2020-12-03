@@ -13,8 +13,7 @@ export default function App(){
       <div>
         <Switch>
           <Route path="/skills"><Skills /></Route>
-          <Route path="/projects"><Projects /></Route>
-          
+          <Route path="/projects"><Projects /></Route>          
           <Route path="/contact"><ContactMe /></Route>
           <Route path="/"><Home /></Route>
         </Switch>
